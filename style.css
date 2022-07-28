@@ -1,0 +1,75 @@
+html{
+    font-size:18px;
+}
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.btn-facebook{
+    
+    background-color: #317ab9;
+}
+.btn-biord{
+background-color: rgb(29, 161, 242);
+}
+
+.btn-like{
+background-color:rgb(0, 119, 181);
+
+}
+
+.container{ 
+    width: 1200px;
+    border:1px solid black;
+    margin-left: 3em auto;
+    margin-right: 3em auto;
+}
+
+.col-left,
+.col-right{ 
+    border: 1px solid green;
+    display: inline-block;
+    vertical-align: top;
+}
+.col-left p,
+.col-right p{
+
+text-align: justify;
+
+}
+.col-left{ 
+    width:55%
+    
+}
+
+.col-right{
+    width: 55%;
+    margin-left: 1rem;
+    
+    
+}
+
+.col-left img{
+    width:60%
+    
+}
+
+
+.link-category {
+    background-color: #5d7fb9;;
+    color: white;
+    text-decoration: none;
+    padding: 10px 40px;
+
+    display: inline-block;
+}
+.col-right p: first-child{
+    margin-top:0;
+}
+.btn-facebook{
+     background-color:;
+ color: white;
+}
