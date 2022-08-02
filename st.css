@@ -1,0 +1,110 @@
+
+
+body{
+    background-color: #333;
+    color: rgb(243, 9, 9);
+}
+
+
+
+
+/*
+component styles
+*/
+
+
+.menu-rotator{
+    width: 39rem;
+    height: 39rem;
+   /* border: 1px solid green;*/
+    font-size: 200%;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    border-radius: 100%;
+}
+
+.menu-rotator a{
+    color: white;
+    text-decoration: none;
+    /*border: 1px solid darkgreen;*/
+    text-align: center;
+    line-height: 13rem;
+
+    border-radius: 50%;
+    background-color: rgb(56, 36, 40);
+    width:180px; 
+    height:180px;
+}
+
+.menu-rotator a:hover {
+background-color: rgb(7, 6, 6);
+transition: .3s;
+
+
+}
+.menu-rotator i{     
+    font-size: 5rem;
+}
+
+
+.menu-rotator a:first-child {
+    grid-column-start: 2;
+}
+
+.menu-rotator a:nth-child(2){
+    grid-row-start: 2;
+    grid-column-start: 3;
+}
+
+.menu-rotator a:nth-child(3){
+    grid-row-start: 3;
+    grid-column-start: 2;
+}
+.menu-rotator a:nth-child(4){
+    grid-row-start: 2;
+    grid-column-start: 1;
+}
+.menu-rotator div:last-child {
+    grid-row-start: 2;
+    grid-column-start: 2;
+    background-color: rgb(145, 97, 97);
+    border-radius: 100%;
+text-align: center;
+transform: rotate(0deg);
+transition: .5s;
+
+}
+
+#opt-1:target .menu-rotator div.indicator{
+    transform: rotate(0deg);
+}
+#opt-2:target .menu-rotator div.indicator{
+    transform: rotate(90deg);
+}
+
+#opt-3:target .menu-rotator div.indicator{
+    transform: rotate(180deg);
+}
+#opt-4:target .menu-rotator div.indicator{
+    transform: rotate(270deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
