@@ -1,0 +1,65 @@
+body{
+    font-family: Arial;
+}
+
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*LAYOUT */
+
+nav ul {
+    /*flex container */
+    display: flex;
+    background-color: #ddd;
+}
+
+nav li {
+    /*flex items */
+    padding :1em;
+    color: black;
+}
+
+nav a {
+    color: inherit;
+}
+
+/*HOVE+SYNC */
+/* 1.multiple selectors */
+/*NAV LI:hover{
+    background-color: black;
+    color: white;
+}
+
+nav li:hover a {
+    color: white;
+
+}/*
+
+/*2. inheritance */
+nav li:hover{
+    background-color: black;
+    color:white
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
