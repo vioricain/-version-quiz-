@@ -1,0 +1,99 @@
+/* COMMON STYLE - (stiluri care afecteaza intreaga pagina) */
+html {
+    height: 100%;
+}
+
+body{
+    background-color: #345;
+    margin: 0;
+    height: 100%;
+}
+
+h1 {
+    color: white;
+}
+
+/* Stories component styles */
+
+.stories {
+    font-family: Arial, Helvetica, sans-serif;
+    /*border: 1px dotted white;*/
+    height: 33.3%;
+    white-space: nowrap; /*inline( avem blocuri ,deaceea s-a conformat)*/
+overflow-x: scroll;
+}
+.stories  .slide {
+    width: 23%;
+    height: 100%;
+    margin-right: 1%;
+
+
+    background-color: #fff;
+
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: top;
+    text-align: center;
+
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.stories  .slide:nth-child(1)  {
+    background-image: url(avatars/avataaars\ \(1\).png);
+background-size: 100px 100px;
+background-position: center top;
+
+}
+
+
+
+
+.stories  .slide:nth-child(2)  {
+    background-image: url(image/1.poza.jpg);
+    
+}
+.stories  .slide:nth-child(3)  {
+    background-image: url(image/2.poza.jpg);
+    
+}
+.stories  .slide:nth-child(4)  {
+    background-image: url(image/3.poza.jpg);
+    
+}
+.stories  .slide:nth-child(5)  {
+    background-image: url(image/4.poza.jpg);
+} 
+
+.stories  .slide  .avatar {
+    display: inline-block;
+    border: 5px solid rgb(11, 11, 194);
+    width: 70%;
+    height: 40%;
+    border-radius: 100%;
+
+    overflow: hidden;
+    box-shadow: 0 0 5px 3px #234;
+}
+.stories  .slide img {
+    width: 112%;
+    margin-left: -6%;
+    margin-top: -16%;
+}
+
+.stories  .label {
+    background-color: #1137 ;
+color: white;
+padding: 1em;
+margin-top: 50%;
+}
+.stories  .first {
+    background-color: #1137;
+    color: white;
+    padding: 1em;
+    margin-top: 120%;
+    margin-left: -12%;
+    font-size: small;
+    font-family: Geneva;
+}
